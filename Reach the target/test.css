@@ -1,0 +1,79 @@
+.container1{
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 25%;
+}
+
+.player1 {
+    position: absolute;
+    left: 375px;
+    width: 350px;
+    height: 350px;
+    border-radius: 5%;
+    box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.2);;
+    background-image: linear-gradient(to top right, #02010e 0%, #09026d 100%);
+
+}
+.player2 {
+    position: absolute;
+    left: 775px;
+    width: 350px;
+    height: 350px;
+    border-radius: 5%;
+    box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.2);;
+    background-image: linear-gradient(to top right, #02010e 0%, #09026d 100%);
+}
+
+.btn {
+    background: none;
+    position: relative;
+    top: 40%;
+    left: 32%;
+    color: #ffa260;
+    border: 2px solid;
+    border-radius: 7px;
+    padding: 1em 2em;
+    font-size: 0.8em;
+    transition: all 0.2s
+}
+.btn:hover {
+    border-color: #f1ff5c;
+    color: white;
+    box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}
+#reset {
+    position: relative;
+    color: #09026d;
+    top: 78%;
+    left: 65%;
+}
+#reset:hover {
+    border-color: #09026d;
+    color: black;
+    box-shadow: 0 0.5em 0.5em -0.4em #02010e;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}
+.p1{
+    position: relative;
+    top: 22%;
+    left: 32%;
+    font-size: 100px;
+    color: white;
+    text-shadow: -0.08em 0.03em 0.12em rgba(0,0,0,0.3) ;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+}
+.p2{
+    position: relative;
+    top: 22%;
+    left: 32%;
+    font-size: 100px;
+    color: white;
+    text-shadow: -0.08em 0.03em 0.12em rgba(0,0,0,0.3) ;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+}

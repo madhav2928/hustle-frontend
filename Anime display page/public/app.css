@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #90caec;
+    font-family: "Nunito", sans-serif;
+}
+
+#mainNavBar {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+#mainNavBar .nav-link {
+    color: rgb(224, 221, 221);
+}
+
+#mainNavBar .nav-link:hover {
+    color: rgb(25, 10, 114);
+}
+
+#mainNavBar .navbar-brand {
+    font-size: 1.5rem;
+    color: rgb(25, 10, 114);
+}
+
+#heading {
+    font-weight: 100;
+    font-size: 2.5rem;
+    color: rgb(25, 10, 114);
+    font-family: 'Shizuru', cursive;
+    word-spacing: -20px;
+}
+
+
+@media (max-width:1200px)
+{
+    #heading {
+        font-weight: 100;
+        font-size: 2rem;
+    }
+}
+
+.anime h2{
+    color:rgb(25, 10, 114);
+    font-weight:100;
+}
+
+.anime p{
+    color:rgb(12, 2, 73);
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+
+.content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+.navbar.scrolled {
+    background: rgba(144, 202, 236,0.6);
+    transition: background 400ms;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Licorice&family=Shizuru&display=swap');
+footer{
+    background-color: #24262b ;
+    height: auto;
+    width: 100vw;
+    line-height: 1.5;
+    font-family: 'Licorice', cursive;
+    font-family: 'Shizuru', cursive;
+    padding-top: 40px;
+    color: rgb(224, 221, 221);
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3{
+    font-size: 0.8rem;
+    font-weight: 100;
+    line-height: 0.8rem;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: rgba(224, 221, 221,0.8);
+}
+.socials a i{
+    font-size: 1.1rem;
+}
+
+.socials a:hover i{
+    color: rgba(144, 202, 236,0.8);
+}
+
+
+
+
+
